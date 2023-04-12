@@ -12,7 +12,7 @@ export class Alarm {
         this.alarmOn = false;
     }
 
-    check() {
+    check(): void {
         const psiPressureValue = this.sensor.popNextPressurePsiValue();
 
         if (psiPressureValue < this.lowPressureThreshold || this.highPressureThreshold < psiPressureValue) {
