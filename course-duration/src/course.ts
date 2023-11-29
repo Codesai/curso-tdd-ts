@@ -1,4 +1,4 @@
-const { env } = require('node:process');
+import {env} from "process";
 
 export class Course {
     private readonly name: string;
@@ -15,13 +15,13 @@ export class Course {
     }
     
     public end(): void {
-        const endTime = Date.now();
+        const endTime: number = Date.now();
         this.durationInMinutes = (endTime - this.startTime) / (1000 * 60);
     }
 
     public isShort(): boolean {
-      const tenMinutes: number = 10 * 60;
-      return this.durationInMinutes < tenMinutes;
+      const TenMinutes: number = 10 * 60;
+      return this.durationInMinutes < TenMinutes;
     }
     
     public isLong(): boolean {
@@ -33,7 +33,7 @@ export class Course {
     }
 
     private getCollege(): string {
-        return env.college;
+        return env.college ?? "not found";
     }
 }
 
