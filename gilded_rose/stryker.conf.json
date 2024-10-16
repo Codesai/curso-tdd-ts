@@ -1,6 +1,0 @@
-{
-  "checkers": ["typescript"],
-  "tsconfigFile": "tsconfig.json",
-  "timeoutMS": 5000,
-  "timeoutFactor": 1.5
-}
