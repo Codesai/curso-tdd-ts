@@ -13,7 +13,7 @@ selectTea(): void
 selectChocolate(): void
 addOneSpoonOfSugar(): void
 makeDrink(): void
-addMoney($amount: number): void
+addMoney(amount: number): void
 ```
 
 # First iteration - Making drinks
