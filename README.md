@@ -6,6 +6,9 @@ Kata to start doing TDD.
 ## Password validator
 Kata to practice the importance of examples list and test order.
 
+## Argent Rose
+Kata to practice TDD heuristics.
+
 ## Tire Pressure Variation
 Kata to practice TDD with test doubles.
 
