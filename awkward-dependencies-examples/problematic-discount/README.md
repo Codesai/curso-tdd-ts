@@ -3,11 +3,7 @@
 ## Goal
 Recognizing awkward dependencies (FIRS violations).
 
-1. Examine the code and the tests.
-
-   a. What's the problem with the existing test?
-
-   b. If not, identify which violations of FIRS make the code not unit-testable.
+1. Examine the code (tests included), and identify which violations of FIRS made it not unit-testable.
 
 2. Optional: how would you design this code in order to be unit-testable?
 
