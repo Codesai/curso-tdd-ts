@@ -4,11 +4,13 @@
 
 ### Constraints.
 
-Aside from its constructor this is the only public method of the `Alarm` class:
+- Aside from its constructor the only public method of the `Alarm` class is:
 
 `check(): void`
 
 `Alarm` cannot have any accessor methods to see its state, and all its fields must be private.
+
+- Disable the AI completion of your IDE.
 
 ### Tools
 
