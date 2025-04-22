@@ -14,4 +14,4 @@ This kata shows the importance of:
 
 * Selecting the test order
 
-* Having good assertions (testing only one thing and being always true)
+* Having good assertions.
